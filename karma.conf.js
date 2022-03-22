@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/sharing-data-between-parrent-and-child'),
+      dir: require('path').join(__dirname, './coverage/sharing-data-between-parent-and-child'),
       subdir: '.',
       reporters: [
         { type: 'html' },
