@@ -6,7 +6,8 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent implements OnInit {
-  currentItem = 'Television';
+  parentItem = 'Television';
+  //Note: Sharing a function/method can be done by using a ViewChild
 
   constructor() { }
 
